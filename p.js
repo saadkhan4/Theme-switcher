@@ -1,10 +1,10 @@
 function updateToggleUI(theme) {
   if (theme === "dark") {
-    toggleIcon.textContent = "☀️";
-    toggleText.textContent = "Light Mode";
+    themeToggle.textContent = "☀️";
+    themeToggle.textContent = "Light Mode";
   } else {
-    toggleIcon.textContent = "🌙";
-    toggleText.textContent = "Dark Mode";
+    themeToggle.textContent = "🌙";
+    themeToggle.textContent = "Dark Mode";
   }
 }
 
